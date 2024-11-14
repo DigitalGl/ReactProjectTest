@@ -3,30 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vanilla JS</title>
-    <style>
-        .app {
-            text-align: center;
-        }
-
-        .green-btn {
-            color: white;
-            background-color: green;
-        }
-    </style>
+    <title>Reat Hello World</title>
 </head>
 <body>
-    <div class="app">
-        <button id="my-button" onclick="changeButton('my-button')">
-            Click me
-        </button>
-    </div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" 
+    crossorigin 
+    ></script>
+    <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"
+    crossorigin
+    ></script>
     <script>
-        function changeButton(id) {
-            const myButton = document.getElementById(id)
-            myButton.innerHTML = 'Hello from Vanilla JS'
-            myButton.className = 'green-btn'
-        }
+        const helloWorldHeading = React.createElement('h1', null, 'Hello from React')
+        console.log(helloWorldHeading)
     </script>
 </body>
 </html>
