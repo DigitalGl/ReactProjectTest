@@ -1,6 +1,15 @@
+
+let buttonText = 'Click me please'
+const onButtonClick = () => {
+    buttonText = 'Hello from React'
+    console.log(buttonText)
+}
+
 const App = (
     <div className="app">
-        <button onClick="">Click me</button>
+        <button onClick={onButtonClick}>
+            {buttonText}
+        </button>
     </div>
 )
 
