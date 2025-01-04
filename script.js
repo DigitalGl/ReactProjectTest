@@ -22,4 +22,5 @@ const container = document.getElementById('app')
 const root = ReactDOM.createRoot(container)
 root.render(<App initialButtonText="Click me" initialClasslist="" />)
 
+console.log(App);
 
