@@ -1,13 +1,13 @@
 
-const fruits = [ 'apple', 'banana']
-
-const [fruitOne, fruitTwo] = fruits
-
-console.log(fruitOne)
-console.log(fruitTwo)
 
 
+const myArray = [1, 2, 3]
+console.log(myArray)
 
+const newArray = myArray.map(el => el * 3)
+
+console.log(newArray);
+console.log(myArray);
 
 
 
