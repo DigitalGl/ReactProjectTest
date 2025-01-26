@@ -13,3 +13,33 @@ class Comment {
     }
 }
 
+
+
+
+
+
+
+// Расширение других классов
+
+class ExtendedArray extends Array {
+    info() {
+        return `Array has ${this.length} elements`
+    }
+}
+
+const myArray = new ExtendedArray(2, 5, 7)
+
+
+console.log(myArray.info());
+
+
+
+
+
+
+
+
+
+
+
+
